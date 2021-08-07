@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -41,4 +46,111 @@
     border-radius: 10px;
     box-shadow: 1px 1px 8px #E2E2E2;
     padding: 20px 40px;
+}
+
+/** Formatação Lista de Filtros **/
+
+#filtros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#filtros h5 {
+    padding-top: 10px;
+    color: #f13548;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+    margin: 20px 0 20px 40px;
+}
+
+ul li {
+    width: 180px;
+    height: 50px;
+    background-color: #cecece;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    float: left;
+}
+
+ul li:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.8s opacity;
+}
+
+ul li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #FFF;
+}
+
+ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/** Formatações cores de filtros **/
+
+#bug {
+    background-color: #92bd2d;
+}
+#dark {
+    background-color: #595761;
+}
+#dragon {
+    background-color: #0c6ac8;
+}
+#electric {
+    background-color: #f2d94e;
+}
+#fairy {
+    background-color: #ef90e6;
+}
+#fighting {
+    background-color: #d3425f;
+}
+#fire {
+    background-color: #fba64c;
+}
+#flying {
+    background-color: #a1bbec;
+}
+#ghost {
+    background-color: #5f6dbc;
+}
+#grass {
+    background-color: #60bd58;
+}
+#ground {
+    background-color: #da7c4d;
+}
+#ice {
+    background-color: #76d1c1;
+}
+#normal {
+    background-color: #a0a29f;
+}
+#poison {
+    background-color: #b763cf;
+}
+#psychic {
+    background-color: #fa8582;
+}
+#rock {
+    background-color: #c9bc8a;
+}
+#steel {
+    background-color: #5795a3;
+}
+#water {
+    background-color: #539ddf;
 }
